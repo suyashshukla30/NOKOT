@@ -31,7 +31,7 @@ class LoginViewModel(private val activity : Activity) : ViewModel() {
 
     fun signInWithGoogle(signInLauncher: (Intent) -> Unit) {
         val signInIntent = googleSignInClient.signInIntent
-        signInLauncher(signInIntent) // Trigger the launcher
+        signInLauncher(signInIntent)
     }
 
     fun handleSignInResult(data: Intent?) {
