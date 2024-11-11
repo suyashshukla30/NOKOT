@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "425219939383",
+    "project_id": "nokot-85508",
+    "storage_bucket": "nokot-85508.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425219939383:android:d76018b2b702450fcff3b2",
+        "android_client_info": {
+          "package_name": "com.suyashshukla.startnewlife.nokot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425219939383-f97ogi0gaogcnqk6bjv38arakbb5btmr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.suyashshukla.startnewlife.nokot",
+            "certificate_hash": "dcc697e2128ec26f2bd207223f546399dd948116"
+          }
+        },
+        {
+          "client_id": "425219939383-foffqt18ji090lemb6lb1qud0plf6q6h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOdrQvo0RHvMHPHpPeJDDQsfaVmFTaKsg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425219939383-foffqt18ji090lemb6lb1qud0plf6q6h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
