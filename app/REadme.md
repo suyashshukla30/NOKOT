@@ -211,6 +211,24 @@ This blueprint and flowchart cover the high-level architecture of your Notes app
 - **Room DB** for offline persistence.
 - **Sync mechanism** to keep data consistent between the local Room database and Firebase when online.
 
-You can now break down this blueprint into smaller tasks to implement each feature, starting with the user authentication, followed by CRUD operations for notes, then adding offline support and sync logic.
+### MVVM FLOW
 
-Let me know if you'd like further details or help with specific parts of the implementation!
+```
+com.suyashshukla.startnewlife.nokot
+├── data
+│   ├── local
+│   │   ├── Note.kt           // Room Entity
+│   │   ├── NoteDao.kt        // Room DAO
+│   │   ├── NoteDatabase.kt   // Room Database
+│   ├── remote
+│   │   ├── FirestoreHelper.kt // Firestore utility 
+│   ├── repository
+│   │   ├── NotesRepository.kt // Repository for notes
+├── ui
+│   ├── LoginScreen.kt        // Login UI
+│   ├── NotesListScreen.kt    // Notes list UI
+│   ├── AddEditNoteScreen.kt  // Add/Edit note UI
+├── viewmodel
+│   ├── LoginViewModel.kt     // ViewModel for login
+│   ├── NotesViewModel.kt     // ViewModel for notes
+```

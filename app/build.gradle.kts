@@ -2,6 +2,7 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("com.google.gms.google-services")
+    id ("kotlin-kapt")
 }
 
 android {
@@ -43,6 +44,9 @@ android {
     composeOptions {
         kotlinCompilerExtensionVersion = "1.5.1"
     }
+    kapt{
+        correctErrorTypes = true;
+    }
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
@@ -59,7 +63,10 @@ dependencies {
     implementation("androidx.compose.ui:ui")
     implementation( "com.google.android.gms:play-services-auth:21.2.0")
     implementation( "androidx.compose.runtime:runtime-livedata:1.0.0")
-
+    implementation ("androidx.room:room-runtime:2.6.1")
+    implementation("com.google.firebase:firebase-firestore:25.1.1") // Check for the latest version
+    kapt ("androidx.room:room-compiler:2.6.1")
+    implementation ("androidx.room:room-ktx:2.6.1")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.5")
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")

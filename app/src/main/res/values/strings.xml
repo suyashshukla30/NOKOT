@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">NOKOT</string>
+    <string name="no_notes_available_create_your_first_note">No notes available. Create your first note!</string>
 </resources>
