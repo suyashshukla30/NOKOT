@@ -36,10 +36,10 @@
 
 **App ScreenShots**
 
-![Screenshot_20250322_162710_NOKOT.jpg](..%2F..%2FDownloads%2FScreenshot_20250322_162710_NOKOT.jpg)
-![Screenshot_20250322_162410_NOKOT.jpg](..%2F..%2FDownloads%2FScreenshot_20250322_162410_NOKOT.jpg)
-![Screenshot_20250322_162320_NOKOT.jpg](..%2F..%2FDownloads%2FScreenshot_20250322_162320_NOKOT.jpg)
-![Screenshot_20250322_162451_NOKOT.jpg](..%2F..%2FDownloads%2FScreenshot_20250322_162451_NOKOT.jpg)
+![Screenshot_20250322_162410_NOKOT](https://github.com/user-attachments/assets/67a2e21f-44d0-471e-968b-b6e209c32b59)
+![Screenshot_20250322_162320_NOKOT](https://github.com/user-attachments/assets/18284720-5967-4da7-8523-544b3ef2facf)
+![Screenshot_20250322_162710_NOKOT](https://github.com/user-attachments/assets/b96e1e27-6d4e-42b9-8883-dddf5b89e152)
+![Screenshot_20250322_162451_NOKOT](https://github.com/user-attachments/assets/23893261-792e-4590-b0c6-4116c8764f37)
 
 *App Link : https://drive.google.com/file/d/1Mrwm_WmNWxzeRbzyv-pJO2YV2CvHqQAv/view?usp=sharing*
 
